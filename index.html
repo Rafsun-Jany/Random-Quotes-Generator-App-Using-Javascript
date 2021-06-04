@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Random Quotes</h1>
+    </header>
+    
+    <!-- div for select option -->
+    <div class="selectTag">
+      <label for="tags">Choose a Tag:</label>
+      <select name="tags" id="tags">
+        <option value="History">History</option>
+        <option value="Study">Study</option>
+        <option value="Motivation">Motivation</option>
+        <option value="Knowledge">Knowledge</option>
+      </select>
+    </div>
+
+    <!-- div for button -->
+    <div class="generate-quote">
+      <button type="button" id="btn-generate" class="button-1">Click To Generate Random Quote</button>
+    </div>
+
+    <!-- div for Quotation -->
+    <div class="quote-div">
+        <p id="place-quote"></p>
+        <p id="place-name"></p>
+    </div>
+   
+    <!-- JS link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

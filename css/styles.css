@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+  background: url(images/quotes_img.jpg) no-repeat center center fixed;
+  color: black;
+  font-family: "Londrina Solid", cursive;
+  background-size: cover;
+}
+
+/* header {
+  display: flex !important;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+} */
+
+h1 {
+  text-shadow: 1px 1px 15px rgba(50, 50, 50, 0.3);
+  border-left-width: inherit;
+  border-right-width: inherit;
+  padding-left: 42%;
+  padding-right: 42%;
+  border-style: inset;
+  font-size: 2rem;
+  border-color: #ffd700;
+}
+
+.selectTag {
+  margin-left: 42%;
+  margin-right: 42%;
+  display: inline-block;
+}
+
+#btn-generate {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.quote-div {
+  padding-top: 10px;
+  height: auto;
+  /* width: fit-content; */
+  min-height: 20vh;
+  display: block;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+#place-quote,
+#place-name {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 32px;
+  margin-left: 10%;
+  font-weight: 1000;
+  margin-top: 2.5rem;
+}
+#place-name {
+  margin-top: 1rem;
+}
+.button-1 {
+  background-color: transparent;
+  border: 3px solid #000000;
+  color: #ff0251;
+  transition: 0.3s;
+  height: 35px;
+}
+.button-1:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
